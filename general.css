@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Notable;
+  src: url(fonte/Notable-Regular.woff2);
+}
+@font-face {
+  font-family: Orelega;
+  src: url(fonte/OrelegaOne-Regular.woff2);
+}
+@font-face {
+  font-family: Alike;
+  src: url(fonte/Alike-Regular.woff2);
+}
+@font-face {
+  font-family: Bungee;
+  src: url(fonte/Bungee-Regular.woff2);
+}
+body {
+  background-color: #d1dace;
+  margin: 0;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  /* max-width: ; */
+}
+/* .logo {
+  width: 20px;
+} */
+.menu a {
+  color: #d1dace;
+  text-decoration: none;
+  padding: 5px;
+}
+.menu a:hover {
+  color: white;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 17px;
+}
+.hero {
+  background-image: url(img/img_h1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 500px;
+  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
+}
+.hero h1 {
+  color: #d1dace;
+  text-shadow: 2px 2px 5px black;
+  font-family: Notable;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.9;
+}
+.hdb {
+  background-image: url(img/img_h1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 500px;
+  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
+}
+.hdb h1 {
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.7;
+  color: #d1dace;
+  text-shadow: 2px 2px 5px black;
+  font-family: Notable;
+}
+.hdb h2 {
+  margin: 5px;
+}
+.historie p {
+  padding: 3px;
+  margin: 10px;
+  font-size: 17px;
+  font-family: Alike;
+}
+.historie h2 {
+  margin: 10px;
+  font-family: Orelega;
+}
+.demo {
+  background-image: url(img/img_h1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 500px;
+  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
+}
+.demo h1 {
+  position: absolute;
+  top: 32%;
+  left: 7%;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1.7;
+  color: #d1dace;
+  text-shadow: 2px 2px 5px black;
+  font-family: Notable;
+}
+.liste h2 {
+  font-family: Orelega;
+}
+.liste h3 {
+  font-family: Alike;
+  color: #8b2e2e;
+  font-size: 17px;
+}
+.liste p {
+  font-family: Alike;
+}
+
+.index h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Orelega;
+}
+.index p {
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+  font-family: Alike;
+  margin: 5px;
+}
+.boycott h2 {
+  margin: 10px;
+  font-family: Orelega;
+}
+.boycott h3 {
+  margin: 10px;
+  font-family: Orelega;
+}
+.boycott p {
+  padding: 3px;
+  margin: 10px;
+  font-size: 17px;
+  font-family: Alike;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.cta {
+  background: linear-gradient(to right, #8b2e2e, #8b2e2e);
+  color: #d1dace;
+  text-decoration: none;
+  padding: 18px 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  font-family: Notable;
+}
+.cta:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.5);
+}
+.update-row {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.update-text {
+  background-color: #748967;
+  padding: 5px;
+  width: 60%;
+  color: #d1dace;
+}
+.update img {
+  width: 40%;
+  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
+}
+img {
+  width: 100%;
+  box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
+}
