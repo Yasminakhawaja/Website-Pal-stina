@@ -58,6 +58,12 @@
     width: 50%;
     padding: 10%;
   }
+  .update-text {
+    background-color: #52604a;
+    padding: 5px;
+    width: 60%;
+    color: #d1dace;
+  }
 }
 @media (max-width: 680px) {
   .hero h1 {
