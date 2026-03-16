@@ -209,3 +209,6 @@ footer {
   text-align: center;
   color: #8b2e2e;
 }
+footer p {
+  padding: 15px;
+}
