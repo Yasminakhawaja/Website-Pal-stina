@@ -101,6 +101,9 @@ nav {
   margin: 10px;
   font-family: Orelega;
 }
+.historie img {
+  width: 100%;
+}
 .demo {
   background-image: url(img/img_h1.webp);
   background-repeat: no-repeat;
