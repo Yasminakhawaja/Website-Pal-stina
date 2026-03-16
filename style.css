@@ -21,7 +21,7 @@
   }
   .update-text {
     background-color: #748967;
-    padding: 40px;
+    padding: 60px;
     width: 100%;
   }
   .update p {
@@ -49,12 +49,26 @@
     width: 70%;
     padding: 10%;
   }
-  /* .grid_1_1 {
+  .grid_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
     align-items: start;
-  } */
+  }
+  .grid_1_1 img {
+    width: 70%;
+    padding: 10%;
+  }
+  .h2boy h2 {
+    font-size: 30px;
+    padding: 5px;
+  }
+  .grid_1_1 h3 {
+    font-size: 25px;
+  }
+  .grid_1_1 p {
+    font-size: 20px;
+  }
   nav {
     font-size: 20px;
     padding: 7px;
@@ -72,7 +86,7 @@
     font-size: 20px;
   }
   .historie img {
-    width: 100%;
+    width: 70%;
     padding: 10%;
   }
   .update-text {
