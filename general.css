@@ -205,3 +205,7 @@ img {
   width: 100%;
   box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
 }
+footer {
+  text-align: center;
+  color: #8b2e2e;
+}
