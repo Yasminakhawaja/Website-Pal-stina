@@ -42,15 +42,22 @@
     font-size: 20px;
     padding: 7px;
   }
-  /* .historie {
+  .historie {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: start;
   }
+  .historie h2 {
+    font-size: 25px;
+  }
+  .historie p {
+    font-size: 20px;
+  }
   .historie img {
-    width: 100%;
-  } */
+    width: 50%;
+    padding: 10%;
+  }
 }
 @media (max-width: 680px) {
   .hero h1 {
