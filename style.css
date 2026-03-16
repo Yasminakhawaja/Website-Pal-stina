@@ -38,6 +38,23 @@
   .demo h2 {
     margin: 7%;
   }
+  .liste {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  .liste img {
+    width: 70%;
+    padding: 10%;
+  }
+  /* .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+  } */
   nav {
     font-size: 20px;
     padding: 7px;

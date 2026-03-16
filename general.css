@@ -126,6 +126,7 @@ nav {
 }
 .liste h2 {
   font-family: Orelega;
+  margin: 10px;
 }
 .liste h3 {
   font-family: Alike;
@@ -135,7 +136,6 @@ nav {
 .liste p {
   font-family: Alike;
 }
-
 .index h2 {
   font-size: 30px;
   text-align: center;
