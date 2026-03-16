@@ -1,18 +1,22 @@
 @font-face {
   font-family: Notable;
   src: url(fonte/Notable-Regular.woff2);
+  font-display: swap;
 }
 @font-face {
   font-family: Orelega;
   src: url(fonte/OrelegaOne-Regular.woff2);
+  font-display: swap;
 }
 @font-face {
   font-family: Alike;
   src: url(fonte/Alike-Regular.woff2);
+  font-display: swap;
 }
 @font-face {
   font-family: Bungee;
   src: url(fonte/Bungee-Regular.woff2);
+  font-display: swap;
 }
 body {
   background-color: #d1dace;
